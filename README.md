@@ -26,7 +26,8 @@ unit_test.py        : A class used to perform unit tests
 1) Conda environment:
     conda env create -f code_hw.yml
 
-2) conda activate code_hw
+2) Activate new environment:
+    conda activate code_hw
 
 3) Run flask server
 UNIX:
