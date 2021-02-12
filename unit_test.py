@@ -9,7 +9,7 @@ class Test(unittest.TestCase):
 
     Methods
     -------
-    test_load_data_empty()
+    test_load_data_when_expect_none_when_links_are_invalid()
         Check if function can handle Null data
 
     test_load_data_full_json()
