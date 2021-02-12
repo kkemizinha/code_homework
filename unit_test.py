@@ -25,7 +25,7 @@ class Test(unittest.TestCase):
     Don't forget to start function with test_*
     '''
 
-    def test_load_data_empty(self):
+    def test_load_data_when_expect_none_when_links_are_invalid(self):
        endpoints_reader = LoadData()
        #self.data = processor.Processor()
        print('Breaking CSV AND JSON file load for testing purpose: ')

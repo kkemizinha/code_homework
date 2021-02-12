@@ -12,7 +12,7 @@ class Test(unittest.TestCase):
     Want to add more tests to play around?
     Don't forget to use prefix test_*  :-)
     '''
-    def test_load_data_empty(self):
+    def test_load_data_expect_summean_when_links_are_valid(self):
 
        endpoints_reader = LoadData()
        data = Processor()

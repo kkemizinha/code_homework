@@ -27,7 +27,7 @@ unit_test.py        : A class used to perform unit tests
 
 1) Conda environment: <br />
     
-    conda env create -f code_hw.yml
+    conda env create -f code_hw.yml -n code_hw
 
 2) Activate new environment: <br />
     
@@ -42,7 +42,7 @@ Windows:
     set FLASK_ENV=development
     set FLASK_APP=app.py
 
-    flask run -h localhost
+    flask run -h localhost -p 8000
 
 4) In a separate Terminal: curl http://localhost:8000
 It's expected to get the JSON results
